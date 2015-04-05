@@ -1,12 +1,12 @@
-package entities;
+package com.utiltube.entities;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class UtEntityApplication {
+public class EntityMicroServiceApp {
 
     public static void main(String[] args) {
-        SpringApplication.run(UtEntityApplication.class, args);
+        SpringApplication.run(EntityMicroServiceApp.class, args);
     }
 }
